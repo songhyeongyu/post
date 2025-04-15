@@ -1,0 +1,20 @@
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# OS
+.DS_Store
+
+# H2 DB
+*.h2.db
