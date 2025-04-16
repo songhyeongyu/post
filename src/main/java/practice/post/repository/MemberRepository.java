@@ -24,8 +24,9 @@ public class MemberRepository {
     private static Map<Long, Member> store = new ConcurrentHashMap<>();
     private static AtomicLong se;
 
-    public void save(Member member) {
+    public Member save(Member member) {
         em.persist(member);
+        return member;
     }
 
     public Member findOne(Long id) {
